@@ -115,9 +115,3 @@ h1 {
 .mmr-text {
     font-size: 1rem;
 }
-
-@media (max-width: 600px) {
-    html {
-        font-size: 30px;
-    }
-}
