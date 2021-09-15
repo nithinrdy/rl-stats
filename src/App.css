@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+html {
+    overflow-x: clip;
+}
+body {
+    padding: 1em;
+    color: rgb(240, 240, 240);
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+}
+h1 {
+    text-align: center;
+}
+#root {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+#main {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form {
+    margin: 30px;
+    width: 90%;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input {
+    width: 90%;
+    height: 50px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background: transparent;
+    color: rgb(240, 240, 240);
+    font-size: 1.3rem;
+    border: 3px solid white;
+}
+#submit {
+    width: 5em;
+    margin: 1em;
+    padding: 0.25em;
+    height: 2em;
+    color: rgb(240, 240, 240);
+    border: 1px solid white;
+    border-radius: 0px;
+    font-size: 1rem;
+    box-shadow: none;
+    background: transparent;
+}
+
+#stats {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 1em;
+}
+
+.rank {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    border: 2px solid white;
+    width: 15em;
+    height: 7em;
+    margin: 1em;
+    text-align: end;
+}
+.rank-img {
+    margin: 0.3em;
+    width: 4.5em;
+    height: 4.5em;
+}
+.rank-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: flex-start;
+    width: 65%;
+    padding: 0.5em;
+    height: 90%;
+}
+.rank-text-playlist {
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.rank-text-rank {
+    width: 100%;
+}
+
+.mmr {
+    margin-top: auto;
+    justify-self: flex-end;
+}
+.mmr-text {
+    font-size: 1rem;
+}
