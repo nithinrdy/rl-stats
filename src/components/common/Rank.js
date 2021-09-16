@@ -40,7 +40,7 @@ function Rank(props) {
         exit: {
             y: 50,
             opacity: 0,
-            transition: { delay: 0.1 * count, duration: 0.7 },
+            transition: { delay: 0.05 * count, duration: 0.6 },
         },
     };
     const mmrAnim = {

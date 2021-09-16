@@ -4,7 +4,7 @@ import Rank from "./Rank";
 import PlayerNotFound from "./PlayerNotFound";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function Something(props) {
+export default function RankContainer(props) {
     const [formatted, setFormatted] = useState([]);
     const [loading, setLoading] = useState(false);
     const [invalid, setInvalid] = useState(false);
