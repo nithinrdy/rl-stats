@@ -27,6 +27,26 @@ h1 {
     display: flex;
     justify-content: center;
 }
+#home-div {
+    border: 2px solid red;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#home-div h1 {
+    align-self: center;
+    justify-self: center;
+}
+.home-links {
+    width: 20%;
+    border: 1px solid white;
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
 #main {
     width: 99%;
     display: flex;
