@@ -1,13 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 function Home() {
     return (
         <div id="home-div">
-            <div>
+            <div style={{ marginBottom: "5em" }}>
                 <h1>Pick a Platform</h1>
             </div>
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
+            <div
+                style={{
+                    display: "flex",
+                    justifyContent: "space-around",
+                    flexWrap: "wrap",
+                }}
+            >
                 <Link to="/steam" className="home-links">
                     Steam
                 </Link>
@@ -15,7 +20,7 @@ function Home() {
                     Epic
                 </Link>
                 <Link to="/ps" className="home-links">
-                    PS
+                    PlayStation
                 </Link>
                 <Link to="/xbox" className="home-links">
                     Xbox
